@@ -119,7 +119,7 @@ while time() < end:
     show_time(int(end - time()))
     window.update()
     sleep(0.01)
-if score > HIGH_SCORE
+if score > HIGH_SCORE:
     HIGH_SCORE = score
 c.create_text(MID_X, MID_Y, \
     text='PELI OHI', fill='white', font=('helvetica',30))
